@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        5. iframe
+        - 정의
+        <iframe> 태그를 이용하면 현재 html 페이지 내에 
+        내장 윈도우를 만들고 다른 HTML 페이지를 출력할 수 있다.
+
+        - 형식
+        <body>
+            <iframe 속성="속성값">
+
+            </iframe>
+        </body>
+
+        - 속성
+        1. src = "파일의 url"
+            내부 프레임에 출력되는 파일의 url
+        2. name = "프레임 이름"
+            내부 프레임의 이름
+        3. width = "픽셀"
+            내부 프레임의 너비
+        4. height = "픽셀"
+            내부 프레임의 높이
+        5. align = "left | center | right"
+            내부 프레임의 x축 위치(좌우 위치)
+        6. align = "top | middle | bottom"
+            내부 프레임의 y축 위치(상하 위치)
+        7. frameborder = "픽셀 수"
+            내부 프레임 테두리의 두께(기본 = 1)
+        8. scolling = "auto(기본) | yes | no"
+            내부 프레임에서 스코롤 바의 사용 여부
+        9. marginwidth = "픽셀 수"
+            내부 프레임의 좌우 여백
+        10. marginheight = "픽셀 수"
+            내부 프레임의 상하 여백
+    -->
+        <h2>
+            <center> 
+                내부 프레임 예제 
+            </center>
+        </h2>
+        <hr>
+        <center>
+            <h3>
+                내부 프레임 예제입니다.
+            </h3>
+        </center>
+
+        <br>
+        <br>
+
+        <center>
+            <iframe src="about:blank" name="window1" width="400" height="300"
+                frameborder="10" marginwidth="10" marginheight="10">
+
+            </iframe>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <iframe src="about:blank" name="window2" width="400" height="300"
+            frameborder="10" marginwidth="10" marginheight="10">
+
+            </iframe>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <iframe src="about:blank" name="window3" width="400" height="300"
+            frameborder="10" marginwidth="10" marginheight="10">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </iframe>
+            
+            <iframe src="about:blank" name="window4" width="400" height="300"
+            frameborder="10" marginwidth="10" marginheight="10">
+
+
+            </iframe>
+        </center>
+
+        <br>
+        <br>
+        <br>
+
+        <center>
+            <a href="7-2.html" target="window1"> 프레임 1 </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="C:\Users\user\Desktop\웹프로그래밍\7주차\7-3.html" target="window2"> 프레임 2 </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="C:\Users\user\Desktop\웹프로그래밍\7주차\7-4.html" target="window3"> 프레임 3 </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="C:\Users\user\Desktop\웹프로그래밍\7주차\7-5.html" target="window4"> 프레임 4 </a>
+        </center>
+</body>
+
+</html>

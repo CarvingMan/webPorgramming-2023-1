@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes bomb1{
+            form{
+                font-size : 100%;
+
+            }
+            to{
+                font-size : 10%
+            }
+
+            
+    }
+
+    @keyframes bomb2{
+            form{
+                width: 50%;
+                height: 50%;
+            }
+            to{
+                width: 100%;
+                height: 100%;
+            }
+
+            
+    }
+
+
+    h3{
+        animation-name: bomb1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    img{
+        animation-name: bomb2;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    </style>
+</head>
+<body>
+    <!--
+        애니메이션
+        -시간별 애니메이션 장면 작성
+
+        @keyframes name{
+            시간비율{스타일;스타일;}
+        }
+
+        ex) 시간비율 : %(0%~100%)나 frame, to로 표현
+        @keyframes  b{
+        0% {color : blue}
+        30% {color : green}
+        100% {color : red}
+
+        }
+
+        @keyframes c
+        form {font-size : 500%}
+        to {font-size : 100%}
+    -->
+
+    <h3>
+        꽝!
+    </h3>
+    <hr>
+    <p>
+        꽝~~~~~~~~~~, 글자가 3초 동안 500% 에서 시작해서 100%로 바뀌는 애니메이션
+    </p>
+
+    <img src = "spadeA.jpeg" width = "100px" height="200px">
+</body>
+</html>

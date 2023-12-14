@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font : norma 24px verdata;
+        }
+
+        .dropText{
+            text-shadow: 3px 3px;
+        }
+
+        .redText{
+            text-shadow: 3px 3px red;
+        }
+
+        .blurText{
+            text-shadow: 3px 3px 5px skyblue;
+        }
+
+        .glowEffect{
+            text-shadow: 0px 0px 3px darkred;
+        }
+
+        .wordArtEffect{
+            color : white;
+            text-shadow: 0px 0px 3px darkblue;
+        }
+
+        .threeDEffect{
+            color : white;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .multiEffect{
+            color: yellow;
+            text-shadow: 2px 2px 2px black,
+                         0 0 25px blue,
+                         0 0 5px darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        *시각적 효과*
+        1. 텍스트 그림자
+        2. 박스 그림자
+        3. 마우스 커서 제어
+
+
+        ** 1. 텍스트 그림자
+        -텍스트 그림자 효과를 주기 위한 방법
+            : text-shadow 프로퍼티 사용
+        -text-shadow 프로퍼티 사용 방법
+
+        Ex) text-shadow : h-shadow v-shadow blur-radius color | none
+            : h-shadow v-shadow => 원본 텍스트와 그림자 텍스트 사이의 수평/수직 거리(필수)
+
+            : blur-radius : 흐릿한 그림자를 만드는 효과로 흐릿하게 번지는 길이(선택)
+            : color : 그림자 색
+            : none : 그림자 효과 없음
+    -->
+    <h3>
+        텍스트 그림자 만들기
+    </h3>
+    <hr>
+
+    <div>
+        클래스를 사용하지 않은 기본 div 스타일 시트
+    </div>
+    <br>
+    <div class = "dropText">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "redText">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "blurText">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "glowEffect">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "wordArtEffect">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "threeDEffect">
+        웹 프로그래밍
+    </div>
+    <br>
+    <div class = "multiEffect">
+        웹 프로그래밍
+    </div>
+</body>
+</html>

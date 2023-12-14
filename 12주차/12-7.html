@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.box{
+            width : 150px; 
+            height : 50px;
+            margin : 40px;
+            border-width : 30px;
+            padding : 20px;
+            border : 10px dotted darkred;
+        }
+        p.box{
+            border-left-width: 3px;
+            border-left-style: dotted;
+            border-left-color: yellowgreen;
+        }
+        .p1{
+            border-right-width: 5px;
+            border-right-style: double;
+            border-right-color: cadetblue;
+        }
+        .p2{
+            border-top-width: 10px;
+            border-top-style: groove;
+            border-top-color: black;
+        }
+
+        
+        .p3{
+            border-bottom-width: 3px;
+            border-bottom-style:ridge;
+            border-bottom-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        12. 박스모델
+        - 각 HTML 태그 요소를 하나의 박스로 보고, 박스 크기, 박스 배경색, 
+        박스 여백등 HTML 태그를 박스로 다루는 체계
+
+        --------------------------------------------------------------------------
+        |                                                                         
+        |     margin(여백 : 바깥쪽 여백)
+        |   --------------------------------
+        |     border(테두리)
+        |   --------------------------------
+        |     padding(패딩 : 안쪽 여백)
+        |   --------------------------------
+        |     콘텐츠
+        |
+        |
+        |
+        |---------------------------------------------------------------------------
+    
+        - 콘텐츠: HTML 태그의 텍스트나 이미지 부분
+        - 패딩 : 콘텐츠를 직접 둘러싸고 있는 내부 여백
+        - 테두리 : 패딩 외부의 외곽선으로 직선이나 점선 혹은 이미지로 입힐 수 있음
+        - 여백 : 박스의 맨 바깥 영역
+
+
+        - 박스를 제어하는 CSS 프로퍼티
+
+        1. 박스의 크기
+        ex) 
+        <head>
+            <style>
+                div.box{
+                    width : 150px; 
+                    height : 50px;
+                    margin : 40px:
+                    border-width : 30px;
+                    padding : 20px;
+                    border : 3px dotted darked;
+
+                </style>
+
+        </head>
+
+        <div class = "box">
+                    구분
+        </div>
+    
+    -->
+    <div class = "box">
+        구분
+</div>
+<p class = "box">
+    박스모델
+</p>
+<p class = "p1">
+    박스모델
+</p>
+<p class = "p2">
+    박스모델
+</p>
+<p class = "p3">
+    박스모델
+</p>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        1. 테이블 기본 태그 : <table></table>
+        - <table>   : 테이블 생성
+        - <tr>      : table row, 하나의 튜플 생성
+        - <td>      : table data, 하나의 셀(열) 생성
+        - <th>      : table header, 제목으로 표시되는 셀 생성
+        - <caption> : 테이블의 제목
+        
+        1-1 테이블 선언 테그
+        - 형식 : <table>...</table>
+            ex)
+                <table>
+                </table>
+            
+        - <td> 태그의 속성
+        1. 셀의 데이터에 대한 좌우 정렬방법
+            <td align = "Left(기본) | right | center | justfy | char">
+        2. 셀의 데이터에 대한 상하 정렬 방법
+                <td valign = "top | middle | bottom | baseLine">
+        3. 행의 셀들을 합침
+                <td rowspan = "수">
+        4. 열의 셀들을 합침
+                <td colspan = "수">
+        5. 셀의 너비(픽셀 수)
+            <td width = "픽셀 수 | 비율(%)"> 
+        6. 셀의 높이(픽셀 수)
+            <td height = "픽셀 수 | 비율(%)">
+        7. 셀의 배경 색상
+            <td bgcolor = "색상명 | rgb">
+    -->
+
+    <table border = "1"> <!--테이블 테두리선-->
+        <tr>
+            <td width = "100" height = "100" valign = "baseLine" align = "char">셀1</td>
+            <td>셀2</td>
+            <td>셀3</td>
+            <td>셀4</td>
+            <td>셀5</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>셀2</td>
+            <td>셀3</td>
+            <td></td>
+            <td>셀5</td>            
+        </tr>
+    </table>
+</body>
+</html>

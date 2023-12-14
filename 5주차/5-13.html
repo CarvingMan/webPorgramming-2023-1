@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--
+        1. 테이블 기본 태그 : <table></table>
+        - <table>   : 테이블 생성
+        - <tr>      : table row, 하나의 튜플 생성
+        - <td>      : table data, 하나의 셀(열) 생성
+        - <th>      : table header, 제목으로 표시되는 셀 생성
+        - <caption> : 테이블의 제목
+        
+       1-4 테이블 서식
+       2. 테이블의 크기 조정
+       
+       * 테이블의 너비
+       - 형식:
+            <table weidth = "픽셀수|비율"></table> 
+        
+            * 테이블의 높이
+       - 형식:
+            <table heigth = "픽셀수|비율"></table>
+    -->
+    <center><br>
+        <table border="1" width = "100%" height = "200">
+            <tr height = "20%">
+                <th width = "33%" >한국</th><!--th는 자동 중앙정렬 및 볼드-->
+                <th width = "33%">미국</th>
+                <th width = "20%">영국</th>
+            </tr>
+            <tr>
+                <td height = "30%">서울</td><!--왼쪽-->
+                <td width = "33%" valign = "top" align = "right">워싱턴</td> <!--변화x 왼쪽-->
+                <td align = "center">런던</td><!--중앙-->
+            </tr>
+        </table>
+    </center>
+    <br>
+    <br>
+    <br>
+    <center><br>
+        <table border="1" height = "150">
+            <tr height = "30%">
+                <th width = "33%">한국</th>
+                <th width = "33%">미국</th>
+                <th height = "33%">영국</th>
+            </tr>
+            <tr>
+                <td>서울</td><!--왼쪽-->
+                <td width = "33%">워싱턴</td> <!--변화x 왼쪽-->
+                <td align = "center">런던</td><!--중앙-->
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

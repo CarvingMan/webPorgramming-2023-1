@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연결태그</title>
+</head>
+<body>
+    <!--
+        <a> 문장 </a> : 인터넷 상의 다른 웹 사이트 혹은 자신의 웹 사이트에 있는 다른 페이지에 
+                        연결 할 수 있는 태그
+        - 형식 : 
+            <a> 링크를 설정할 텍스트 또는 이미지 </a>
+        - 속성
+            1. href = "url" :   절대 url 또는 상대url 또는 앵커 url 
+                ex) http://test/t/1.jpg -> 절대
+                    c:/test/t/1.jpg -> t에 있을시 ./1.jpg - > 상대
+                    c:/test/1.jpg -> 상대
+
+            2. name = "앵커"    : 앵커 설정
+            3. title = "설명"   : 링크에 마우스를 가져가면 나타나는 설명
+            4. target = "프레임 이름 | 예약어"  : 링크된 페이지를 나타낼 곳
+    
+        1. 같은 문서 내에서의 연결
+
+            - 형식 :
+                1. 링크가 설정된 텍스트
+                    <a href = "#앵커"> ~ </a>
+                2. 문서 내 이동할 곳
+                    <a name = "앵커"> ~ </a>
+    
+    -->
+    <a href = "#앵커1">첫 번째 부분으로 이동</a><br>
+    <a href = "#앵커2">두 번째 부분으로 이동</a>
+    <br><br><hr>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
+    <a name = "앵커1">이 곳은 첫 번째 부분이다. </a> <br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a name = "앵커2">이 곳은 두 번째 부분이다. </a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

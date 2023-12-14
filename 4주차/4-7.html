@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록태그</title>
+</head>
+<body>
+    <!--
+        7. 목록태그
+        -정의 : 시각적으로 짜임새 있는 문서를 만들기 위해서 목록 태그를 사용
+        -특징 : 다양한 종류의 목록 형식 제공
+        - 목록을 만들기 위해 사용되는 태그
+            1.<uL> 태그 : 순서 없는 리스트(unordered List)
+                - <Li>리스트</Li>
+            2.<oL> 태그 : 순서 있는 리스트(ordered List)
+                - <Li>리스트</Li>
+            3.<dL> 태그 : 용어 리스트(definition List)
+                - <dt> : 용어 제목목
+                - <dd> : 용어 설명
+
+        7.1 순서 없는 리스트 <uL>
+        - 정의 : 순서 없이 나열되는 목록을 작성할 경우 사용됨
+        - 특징 : 항목별로 선두에 <Li>를 붙이고, 
+                검은원, 흰 원, 사각 박스 세 종류의 마크를 type속성에서 지정 가능
+        -형식 : <uL type = "disc(기본) | circle | square">
+                    <Li>리스트 1</Li>
+                    <Li>리스트 2</Li>
+                    <Li>리스트 3</Li>
+                </uL>
+
+
+        7.2 순서 있는 리스트
+        - 정의 : 순서가 있는 목록을 생성
+        - 특징 : 항목에 번호를 붙여 순서를 표현
+        - 형식 : <oL>
+                    <Li>리스트 항목</Li>
+                </oL>
+        - <oL>태그 속성
+            - type = "1(기본) | A | a | I| i" : 목록 스타일
+            - start = "수"  : 시작 번호
+        - <Li> 태그 속성 
+            - type = "1(기본) | A | a | I| i" : 목록 스타일
+            - value = "수" : 항목 번호
+
+
+        7.3 용어 리스트
+        - 정의 : 용어에 대한 정의나 설명을 할 때 이용
+        - 형식 : <dL>
+                    <dt>용어 제목 </dt>
+                    <dd>용어 설명</dd>
+                 <dL>
+    -->
+
+        <div>
+            <uL>
+                <Li>대 항목 </Li>
+                <uL>
+                    <Li>중항목</Li>
+                    <uL>
+                        <Li>
+                            소항목
+                        </Li>
+                        <uL>
+                            <Li>기타항목</Li>
+                        </uL>
+                    </uL>
+                </uL>
+            </uL>
+        </div>
+
+        <br><br>
+
+        <div>
+            <oL>
+                <Li> 대항목 </Li>
+                <oL type = "A" start = "3">
+                    <Li> 중학목 1</Li>
+                    <Li> 중학목 2</Li>
+                    <oL type = "i">
+                        <Li> 소항목 1</Li>
+                        <Li value = "10"> 소항목 2</Li>
+                        <Li> 소항목 3</Li>
+                    </oL>
+                    <Li value="12"> 중학목 1</Li>
+                </oL>
+            </oL>
+        </div>
+ 
+        
+        
+        <div>
+            <dL>
+                <dt>웹기초프로그래밍(dt)</dt>
+                <dd>웹 기초에 대해서 배웁니다.</dd>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Langueage</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+            </dL>
+        </div>
+</body>
+</html>

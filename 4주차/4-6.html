@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자 이동하기</title>
+</head>
+<body>
+    <!--
+        6. 문자 이동하기
+        - <marquee> 태그 : HTML 문서에서 텍스트나 그림을 설정된 방향과 시간에 맞추어 움직이기
+                        위해서 사용
+        
+        - 형식 : <marquee> 택스트 또는 이미지 </marquee>
+        - <marquee> 태그의 속성
+            1. width = "픽셀 수"    : 스크롤 영역의 너비
+            2. heigth = "픽셀 수"   : 스크롤 영역의 높이
+            3. direction = "up | down | left | right" : 움직이는 방향
+            4. behavior = "scroll | alternate | slide"
+                : 행동 방식(움직이는 방향으로 사라짐 | 좌우 또는 상하로 왕복| 스크롤 영역의 끝에 멈춤)을 
+            5. scrollamount = "픽셀 수" : 스크롤 속도
+            6. scrolldelay = "수"   : 스크롤과 스크롤 사이의 지연시간
+            7. Loop = "수"      :  스크롤의 반복 횟수
+            8. bgcolor = "색상명 | rgb 값"      : 스크롤 영역의 배경색
+
+    -->
+    <p>
+        <marquee>
+            marquee
+        </marquee>
+
+    </p>
+
+    <p>
+        <marquee width = "500" height = "30" direction = "right" behavior="scroll" 
+        scrollamount = "5" scrolldelay = "50" loop = "3" bgcolor = " yellow">
+            오른쪽 방향으로 3번 반복 후 사라집니다.
+        </marquee>
+    </p>
+    <br>
+    <br>
+    <p>
+        <marquee width = "500" height = "100" direction = "down" behavior = "alternate"
+        scrollamount = "10" scrolldelay = "50" loop = "10" bgcolor = "pink">
+            아래 방향으로 10번 왕복하다가 멈춥니다.
+        </marquee>
+    </p>
+
+    <p>
+        <marquee width = "500" height = "20" direction = "left" behavior = "slide"
+        scrollamount = "10" scrolldelay = "50" loop = "3" bgcolor="green">
+            왼쪽 방향으로 3번 반복 후 멈춤니다.
+        </marquee>
+    </p>
+</body>
+</html>

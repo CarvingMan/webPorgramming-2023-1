@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테스트페이지</title>
+</head>
+<body>
+    <!--
+        형식1 : <meta 속성 = "속성값" 속성="속성값"
+        
+        형식 Example) <meta http-equiv = "속성값" content = "내용">
+                      <meta name = "속성값" content="내용">
+
+         meta  태그 속성
+         *http-equiv : HTTP 헤더 정보를 기술
+         *name : 정보의 이름을 기술
+         *content : 정보의 내용을 기술
+         *content-language : 문서의 자연 언어
+         *date : 문서 작성 날짜
+         *expires : 문서의 만료 날짜
+         *last-modified : 문서의 마지막 수정 날짜
+         *location: 페이지(특정 사이트 포함)로 이동할 때 사용
+         *refresh: 문서를 다시 로드함
+         *page-enter : 문서를 여는 순간
+         *page_exit : 문서를 닫는 순간
+         *revealtrans : 문서 전환 효과 설정
+         *blendtrans : 점점 밝게 또는 점점 어둡게 전환되도록 설정
+         *content-type: 표준 포맷인MIME타입을 기술
+              (text/html: HTML타입, text/css타입, text/plain: 일반 텍스트 타입 등)  
+         
+
+         예) 
+
+          
+            <meta http-equiv="content-languege" content="ko">
+            <meta http-equiv = "date" content="Mon, 13 March 2023 14:35:11 GMT">
+            <meta http_equiv = "content-type" content = "text/html; charset=UTF-8">
+
+
+           *페이지 자동이동
+           <meta http-equiv = "refresh" content = "1; url=2-2.html">
+            =>1초 후 2-2.html로 이동시킴
+
+
+           *화면 전환 시 다양한 효과 제공
+           <meta http-equiv ="page-enter" content = "revealtrans(duration=2, transition=23)">
+           => 현재 문서(2-1.html)를 여는 순간 24개 효과들 중에서 임의로 한 개를 선택하여
+           2초동안 화면을 전환시킨다.
+    
+           <meta http-equiv ="page-exit" content = "revealtrans(duration=2, transition=23)">
+           => 현재 문서(2-1.html)를 닫는 순간 24개 효과들 중에서 임의로 한 개를 선택하여
+           2초동안 화면을 전환시킨다.
+
+           <meta http_equiv = "page-exit" content = "blendtrans(duration=1)">
+           => 문서를 닫는 순간 부드럽게 1초동안 화면이 전환된다.
+
+           duration = 시간 : 전환시간(초) 지정
+           transition = 효과번호 : 효과번호는 0~23개까지 총 24개 있다.
+                         23은 0~22까지 23개의 효과 중에서 임의로 선택한다.
+
+
+           * 문자 셋 지정
+           <meta http-equiv = "content-type" content = "text/html; charset=UTP-8"> 
+           
+           *검색엔진에서 HTML 문서를 검색하기 위해 사용할 키워드 제공
+           <meta name = "ketword content = "html5, css3, javascript">
+           => 검색 엔진에서 html5, css3, javascript를 키워드로 사용하여 본 문서를 검색하도록 함
+          
+           <meta name "author" content="홍길동">
+
+
+           *주요 언어의 약어
+           언어              약어
+           =====================
+           한국어              ko
+           영어                en
+           프랑스어            fr
+           이탈리어            it
+           라틴어              la
+           일본어              ja
+           중국어              ch
+    
+    
+    
+        -->
+    
+</body>
+</html>

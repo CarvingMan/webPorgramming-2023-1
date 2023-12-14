@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .e-resize{
+            cursor : e-resize;
+        }
+        .ne-resize{
+            cursor : ne-resize;
+        }
+        .zin{
+            cursor:zoom-in;
+        }
+        .zout{
+            cursor:zoom-out;
+        }
+
+        .wait{
+            cursor: wait;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        **3. 마우스 커서 제어
+        - 마우스 커서의 제어효과를 주기위한 방법 : cursor 프로퍼티 사용
+        ex) cursor : value
+        - value : 마우스 커서 모양을 나타내는 값
+        - value 값 : auto, crosshair, default pointer, move, copy, 
+                     help, progress, text wait none, zoom-in, zoom-out,
+                     e-resize, ne-resize, nw-resize, n-resize, se-resize
+                     s-resize, w-resize, rui증 하나 지정됨
+    -->
+    <h3>
+        마우스 커서 프로퍼티 사용
+    </h3>
+    <hr>
+
+    <p style = "cursor:crosshair">
+        십자모양 커서
+    </p>
+    <br>
+    <p style = "cursor:help">
+        도움말 모양 커서
+    </p>
+    <p style = "cursor:pointer">
+        포인터 모양 커서
+    </p>
+    <p style = "cursor: progress">
+        프로그램 실행중인 모양 커서
+    </p>
+    <p style = "cursor:n-resize">
+        상하 크기 조절 모양 커서
+    </p>
+    <p style = "cursor:e-resize">
+        좌우 크기 조절 모양 커서
+    </p>
+    <p style = "cursor:ne-resize">
+        대각선 크기조절 모양 커서
+    </p>
+    <p style = "cursor:zoom-in">
+        zoom-in 모양 커서
+    </p>
+    <p style = "cursor:zoom-out">
+        zoom-out 모양 커서
+    </p>
+    <p style = "cursor:wait">
+        wait 모양 커서
+    </p>
+    <p style = "cursor:auto">
+        auto 모양 커서
+    </p>
+    <p style = "cursor:default">
+        default 모양 커서
+    </p>
+</body>
+</html>
