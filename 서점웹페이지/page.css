@@ -1,0 +1,68 @@
+body.main{
+
+    background: rgba(233, 193, 175, 0.61);
+    font-family: 'Arial Rounded MT 굵게', '한컴 말랑말랑', Times, sans-serif;
+}
+
+div.box{
+    padding : 20px;
+}
+
+hr{
+    border-color : rgb(164, 103, 97);
+}
+
+
+img{
+    background-color: rgba(245, 216, 203, 0.61);
+    background-size: 0%;
+}
+
+
+button{
+    padding: 10px;
+    background:rgba(245, 216, 203, 0.61);
+    border: 0;
+}
+
+table tr td{
+    padding: 15px;
+}
+
+font{
+    font-size: 18px;
+    font-family: 'Arial Rounded MT 굵게', '한컴 말랑말랑', Times, sans-serif;
+}
+
+
+button:active{
+    background: rgba(229, 165, 138, 0.61);;
+}
+
+a:active{
+   background-color: rgb(137, 97, 93);
+}
+
+
+input[type = number]{
+    background-color: rgb(232, 197, 197);
+    border-radius: 10px / 10px;
+    border: 0;
+}
+
+
+input[type = text]{
+    background-color: rgb(232, 197, 197);
+    border-radius: 5px / 5px;
+    border: 0;
+}
+input[type = password]{
+    background-color: rgb(232, 197, 197);
+    border-radius: 5px / 5px;
+    border: 0;
+}
+input.button{
+    background:rgb(241, 172, 164);
+    border-radius: 5px / 5px;
+    border: 0;
+}

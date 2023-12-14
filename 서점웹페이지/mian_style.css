@@ -1,0 +1,32 @@
+body.main{
+    background: rgba(225, 158, 132, 0.61);
+    font-family:  sans-serif;
+}
+
+.menu{
+    background: rgb(189, 126, 120);
+    font-size: 23px;
+    font-weight: bold;
+    
+    
+}
+
+table a{
+    color: rgb(81, 32, 32);
+}
+
+.bold{
+   
+    
+    font-weight: bold 25px;
+    
+}
+
+h1{
+    color : rgb(138, 68, 68);
+    
+}
+
+a:hover{
+    color : darkred;
+}
